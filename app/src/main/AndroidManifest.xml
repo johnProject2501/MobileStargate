@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="john2501.projetperso">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Stargate"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controller.DetailNewsActivity" />
+        <activity android:name=".Controller.SG1Activity" />
+        <activity android:name=".Controller.Episodes" />
+        <activity android:name=".Controller.DetailEpisodeActivity" />
+        <activity android:name=".Controller.SGAActivity" />
+        <activity android:name=".Controller.SGUActivity" />
+        <activity android:name=".Controller.SGFilm" />
+        <activity android:name=".Controller.FilmDetail"></activity>
+    </application>
+
+</manifest>
